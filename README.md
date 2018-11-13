@@ -14,7 +14,7 @@
 - Install [homebrew](https://brew.sh/) if you haven't already. Homebrew is the standard way to install many command line programs on Macs.
 - Install [pipenv](https://pipenv.readthedocs.io/en/latest/) with `brew install pipenv`
 - Add the directory where pipenv was installed to your $PATH so your terminal can find the new "pipenv" program you just installed. Probably "/usr/local/bin/". Depending on your setup try this command: `echo "export PATH=$PATH:/usr/local/bin" >> $HOME/.bashrc`
-- Run `pipenv install` in the directory where the "Pipfile" file is located
+- Run `pipenv install` in the directory where the "Pipfile" file is located (Should be located inside of server-side-training directory)
   - If pipenv complains about a missing Python version, install it with homebrew (do a quick google search)
 - Run `pipenv shell` to activate the Python environment
 
